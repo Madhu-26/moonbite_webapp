@@ -53,21 +53,51 @@ $customer_count = mysqli_fetch_assoc(
 
     <div class="hero-overlay">
 
-        <h1>MoonBite Café</h1>
+            <span class="hero-tag">
+        WELCOME TO MOONBITE CAFÉ
+        </span>
+
+        <h1>
+            Where Every 
+            <span>Bite Shines</span>
+        </h1>
 
         <p>
-            Where Every Bite Shines
+            Fresh Coffee • Handcrafted Meals • Signature Desserts
+            <br>
+            Crafted with Passion, Served with Love.
         </p>
 
-        <a href="menu.php" class="hero-btn">
-            View Menu
+        <div class="hero-buttons">
+
+            <a href="menu.php" class="hero-btn">
+                Explore Our Menu
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+
+        <a href="#about">
+
+            <span class="scroll-mouse">
+                <span class="scroll-wheel"></span>
+            </span>
+
+            <span class="scroll-text">
+                Scroll to Explore
+            </span>
+
         </a>
 
     </div>
 
 </section>
 
-<section class="welcome">
+<section class="welcome" id="about">
 
     <div class="welcome-container">
 
@@ -126,7 +156,7 @@ $customer_count = mysqli_fetch_assoc(
 
 </section>
 
-<section class="featured">
+<section class="featured" id="featured">
 
 <h2>Featured Menu</h2>
 
