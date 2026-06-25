@@ -146,15 +146,15 @@ $customer_count = mysqli_fetch_assoc(
 
             </div>
 
-            <a href="menu.php" class="btn">
-                Explore Menu
-            </a>
-
         </div>
 
     </div>
 
 </section>
+
+<div class="section-divider">
+    ✦
+</div>
 
 <section class="featured" id="featured">
 
@@ -178,7 +178,11 @@ while($food = mysqli_fetch_assoc($result))
 {
 ?>
 
-    <div class="food-card">
+    <div class="feature-card">
+
+        <span class="featured-badge">
+            Featured
+        </span>
 
         <img
         src="../uploads/<?= $food['image']; ?>"
@@ -200,7 +204,8 @@ while($food = mysqli_fetch_assoc($result))
         href="food_details.php?id=<?= $food['food_id']; ?>"
         class="btn">
 
-        View Details
+        Order Now
+        <i class="fas fa-arrow-right"></i>
 
         </a>
 
