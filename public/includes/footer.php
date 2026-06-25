@@ -20,7 +20,7 @@
 
             <h3>Contact Us</h3>
 
-            <p>📞 +94 75 360 0225</p>
+            <p>📞 +94 70 227 7800</p>
 
             <p>✉️ info@moonbite.com</p>
 

@@ -15,7 +15,7 @@ if(isset($_SESSION['cart']))
 
 <div class="brand">
 
-    🌙 MoonBite Café
+🌙 <span>MoonBite</span> Café
 
 </div>
 
