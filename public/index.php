@@ -153,7 +153,7 @@ $customer_count = mysqli_fetch_assoc(
 </section>
 
 <div class="section-divider">
-    ✦
+    ✦✦✦
 </div>
 
 <section class="featured" id="featured">
@@ -214,6 +214,80 @@ while($food = mysqli_fetch_assoc($result))
 <?php } ?>
 
 </div>
+
+</section>
+
+<section class="why-us">
+
+    <div class="section-title">
+
+        <span>WHY CHOOSE US</span>
+
+        <h2>More Than Just Great Food</h2>
+
+        <p>
+            At MoonBite Café, we combine fresh ingredients,
+            handcrafted recipes, and exceptional service
+            to create a memorable dining experience.
+        </p>
+
+    </div>
+
+    <div class="why-grid">
+
+        <div class="why-card">
+
+            <i class="fas fa-seedling"></i>
+
+            <h3>Fresh Ingredients</h3>
+
+            <p>
+                Every meal is prepared using carefully
+                selected fresh ingredients.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fas fa-mug-hot"></i>
+
+            <h3>Premium Coffee</h3>
+
+            <p>
+                Freshly brewed coffee crafted to
+                perfection for every customer.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fas fa-bolt"></i>
+
+            <h3>Fast Service</h3>
+
+            <p>
+                Enjoy quick service without compromising
+                quality or taste.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <i class="fas fa-heart"></i>
+
+            <h3>Made With Love</h3>
+
+            <p>
+                Every dish is prepared with passion
+                and attention to every detail.
+            </p>
+
+        </div>
+
+    </div>
 
 </section>
 
